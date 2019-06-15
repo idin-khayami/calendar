@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.notInMonth{
+  display: flex;
+  margin: 1px;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendarContainer{
+  font-size: 10px;
+  width: 400px;
+  height: 250px;
+  display: flex;
+  padding: 17px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.dayInThisMonth{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1px;
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer{
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.topMenuStyle{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
